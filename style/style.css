@@ -1,0 +1,194 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(45deg, #30cfd0, #330867);
+    color: white;
+    line-height: 1.3;
+    font-size: 25px;
+    max-width: 2800px;
+    margin: 0 auto;
+    font-weight: 500;
+    
+}
+p{
+    padding-bottom: 25px;
+}
+
+header{
+    background-image: url("../img/head.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Чтобы изображение проскальзывало */
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.about{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+
+.strange-error{
+    background-image: url("../img/for-scheme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 39px;
+    margin-bottom: 40px;
+    text-align: center;
+   
+}
+
+
+.list{
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+    background-image: url("../img/Ellipse\ 252.png");
+    background-repeat: no-repeat;
+    background-position: 5px 11px;
+
+    max-width: 190px;
+
+    margin:0 auto 35px;
+    padding-left: 35px;
+
+}
+/* Знаю что ещё не умею, посмотрел в видео у Жени */
+
+.list:last-child{
+    margin-bottom: 0;
+}
+
+h3{ font-family: "Oswald";
+    font-weight: 600;
+    font-size: 35px;
+    
+    background: linear-gradient(45deg, #00c6fb, #005bea);
+}
+
+.kipr{
+    background-image: url("../img/cyprus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tunis{
+    background-image: url("../img/Tunisia-1.jpg");
+    background-repeat: repeat-x;
+    background-attachment:local ;
+}
+.iordania{
+    background-image: url("../img/Iordania.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.marocco{
+    background-image: url("../img/morocco.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.canarian{
+    background-image: url("../img/Tenerife.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.thailand{
+    background-image: url("../img/thailand.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+.ammirates{
+    background-image: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+}
+
+
+
+.marg{
+    margin-bottom: 10px;
+
+
+}
+.viet{
+    display: block;
+    max-width: 2300px;
+    margin: 0 auto 10px;
+}
+
+.turkey{
+    background-image: url("../img/turkey-3.jfif"),url("../img/Turkey-1.jpg"), url("../img/turkey-2.jfif");
+    background-repeat: no-repeat;
+    background-position: right, left, center;
+    background-size: 250px auto, 250px auto, cover;
+    min-height: 900px;
+    background-attachment: fixed;
+
+}
+
+
+.maldiv{
+    display: inline-block;
+    background-image: url("../img/Maldives.jpg");
+    /* Чтобы не повторялось*/
+    background-repeat: no-repeat;
+    
+    /* Женя Спасибо */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+.shri-lanka{
+    background-image: url("../img/Sri-Lanka.jpg");
+    background-size: contain;
+    /* Мог впринципе и не делать но всё же... */
+     background-repeat: repeat-x;
+}
+
+
+
+
+
+
+main{
+    margin-bottom: 150px;
+}
+
